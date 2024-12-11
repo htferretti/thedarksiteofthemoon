@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./images/moon.jpg);
+    background-size: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    padding: 30px;
+    color: #ecf0f1;
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+header h1, section h2 {
+    font-family: "Cinzel Decorative", serif;
+    font-weight: normal;
+}
+
+section {
+    color: #ecf0f1;
+}
+
+#about h2 {
+    font-size: 35px;
+    margin: 100px 0 15px 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#about h2 a, #about p a {
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+#about h2 a {
+    color: #182C61;
+}
+
+#about h2 a:hover {
+    color: #314e9e;
+}
+
+#about p a {
+    color: #ecf0f1;
+}
+
+#about p a:hover {
+    color: #c3c9ca;
+}
+
+#about p {
+    text-indent: 50px;
+}
+
+#about .container > div {
+    max-width: 640px;
+    width: 100%;
+}
+
+.products-list {
+    max-width: 1000px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+#products ul {
+    margin-top: 30px;
+}
+
+#products li {
+    display: inline;
+    margin-left: 15px;
+}
+
+#products img {
+    width: 300px;
+    height: 400px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#products img:hover {
+    opacity: 0.5;;
+}
+
+form input, form textarea, form button {
+    display: block;
+    width: 500px;
+    margin-bottom: 8px;
+    padding: 8px;
+    background: #1f2020;
+    color: #ecf0f1;
+    border: none;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin: 60px 0 16px 0;
+    color: #182C61;
+}
+
+form button {
+    background: #182C61;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+    transition: 0.1s;
+    margin-bottom: 60px;
+}
+
+form button:hover {
+    background: #314e9e;
+}
+
+input:focus, textarea:focus {
+    outline-color: #182C61;
+}
+
+footer {
+    background: #1f2020;
+    color: #ecf0f1;
+    padding: 16px 0;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer a {
+    color: #ecf0f1;
+    transition: 0.2s;
+}
+
+footer a:hover {
+    color: #c3c9ca;
+}
